@@ -1,0 +1,29 @@
+{
+    "workbench.colorTheme": "GitHub Dark Default",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.fontFamily": "'RictyDiminished-Bold.ttf','monospace'",
+    "terminal.integrated.fontFamily": "monospace",
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.fontSize": 15,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "ｊ",
+                "ｊ"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "editor.formatOnSave": true
+}
