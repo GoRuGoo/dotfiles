@@ -1,0 +1,7 @@
+.bash_history
+.zsh_history
+.viminfo
+*~
+*.swp
+.ssh
+.aws
