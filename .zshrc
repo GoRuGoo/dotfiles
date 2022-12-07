@@ -36,3 +36,8 @@ function powerline_precmd() {
     PS1="$(powerline-shell --shell zsh $?)
 % "
 }
+
+
+setopt correct
+#　間違ったコマンドを入力した際に正しいコマンドを訂正してくれる
+
