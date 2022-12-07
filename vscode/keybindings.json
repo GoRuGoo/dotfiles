@@ -1,1 +1,7 @@
-/Users/goru/dotfiles_evo/vscode/keybindings.json
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+    {
+        "key": "cmd+e cmd+w",
+        "command": "editor.emmet.action.wrapWithAbbreviation"
+    }
+]

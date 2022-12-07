@@ -5,6 +5,7 @@ donjayamanne.githistory
 dracula-theme.theme-dracula
 eamodio.gitlens
 ecmel.vscode-html-css
+esbenp.prettier-vscode
 GitHub.github-vscode-theme
 golang.go
 Gruntfuggly.todo-tree
@@ -35,6 +36,7 @@ ms-vscode.remote-explorer
 mtxr.sqltools
 RobbOwen.synthwave-vscode
 rodrigovallades.es7-react-js-snippets
+techer.open-in-browser
 twxs.cmake
 usernamehw.errorlens
 VisualStudioExptTeam.intellicode-api-usage-examples
