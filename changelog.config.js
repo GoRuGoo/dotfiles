@@ -4,6 +4,7 @@ module.exports = {
   list: [
     "fix",
     "feat",
+    "delete",
     "refactor",
     "test",
     "style",
@@ -24,7 +25,7 @@ module.exports = {
     ci: {
       description: "CI用の設定やスクリプトに関する変更",
       value: "ci",
-    },
+   },
     docs: {
       description: "ドキュメントのみの変更",
       value: "docs",
@@ -36,6 +37,10 @@ module.exports = {
     fix: {
       description: "不具合の修正",
       value: "fix",
+    },
+    delete: {
+      description: "削除",
+      value: "delete",
     },
     perf: {
       description: "パフォーマンス改善を行うためのコードの変更",
