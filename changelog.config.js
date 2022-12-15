@@ -12,6 +12,7 @@ module.exports = {
     "docs",
     "perf",
     "ci",
+    "wip",
   ],
   maxMessageLength: 64,
   minMessageLength: 3,
@@ -54,6 +55,10 @@ module.exports = {
       description: "コードの処理に影響しない変更（スペースや書式設定など）",
       value: "style",
     },
+    wip: {
+      description:"作業に区切りがつくまでのコミット",
+      value: "wip",
+     },
     test: {
       description: "テストコードの変更",
       value: "test",
