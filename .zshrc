@@ -50,4 +50,5 @@ setopt correct
     autoload -Uz compinit
     compinit
   fi
-export export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH="$HOME/.nodebrew/current/bin:$PATH"
+export PATH="/Users/goru/.local/bin:$PATH"
