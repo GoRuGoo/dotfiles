@@ -3,8 +3,18 @@ fpath=(
  ${fpath}
 )
 
+
+# 補完と色の使用
 autoload -Uz compinit
 compinit
+autoload -Uz colors
+colors
+
+# ビープ音削除
+setopt no_beep
+setopt nolistbeep
+
+
 
 # ここから上はgitの補完の設定
 
@@ -52,3 +62,5 @@ setopt correct
   fi
 export PATH="$HOME/.nodebrew/current/bin:$PATH"
 export PATH="/Users/goru/.local/bin:$PATH"
+
+git config --global color.ui auto
