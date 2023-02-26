@@ -23,5 +23,10 @@
   "liveServer.settings.useLocalIp": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.minimap.enabled": false,
+  "material-ui-snippets.showNotesOnStartup": false
 }
