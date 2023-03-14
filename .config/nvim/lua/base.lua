@@ -1,5 +1,7 @@
-vim.cmd("autocmd")
+vim.cmd("autocmd!")
 
+-- ヘルプを日本語表記に
+vim.o.helplang = 'ja,en'
 
 -- 文字エンコーディング
 vim.scriptencoding = 'utf-8'
@@ -26,3 +28,21 @@ vim.opt.smartcase = true
 vim.opt.wrapscan = true
 
 vim.opt.mouse = 'a'
+
+
+vim.opt.title = true
+vim.opt.autoindent = true
+vim.opt.smartindent = true
+vim.opt.hlsearch = true
+vim.opt.backup = false
+vim.opt.showcmd = true
+vim.opt.cmdheight = 1
+vim.opt.laststatus = 2
+vim.opt.scrolloff = 10
+vim.opt.inccommand = 'split'
+vim.opt.smarttab = true
+vim.opt.breakindent = true
+vim.opt.wrap = false -- No Wrap lines
+
+-- カーソルのある行にハイライト線を引く
+vim.wo.cursorline = true
