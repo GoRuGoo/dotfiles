@@ -4,3 +4,4 @@ require('key')
 
 require('pluginsConfig.lineconfig')
 require('pluginsConfig.color')
+require('pluginsConfig.theme')

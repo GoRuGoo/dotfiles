@@ -12,4 +12,5 @@ packer.startup(function(use)
   'nvim-lualine/lualine.nvim',
   requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
+  use ({ 'projekt0n/github-nvim-theme', tag = 'v0.0.7' })
 end)
