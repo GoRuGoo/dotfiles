@@ -13,4 +13,9 @@ packer.startup(function(use)
   requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
   use ({ 'projekt0n/github-nvim-theme', tag = 'v0.0.7' })
+  use {
+  'nvim-telescope/telescope.nvim', tag = '0.1.1',
+-- or                            , branch = '0.1.x',
+  requires = { {'nvim-lua/plenary.nvim'} }
+}
 end)

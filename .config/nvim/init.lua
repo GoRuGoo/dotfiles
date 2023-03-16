@@ -1,6 +1,6 @@
 require('plugins')
 require('base')
-require('key')
+require('keymaps')
 
 require('pluginsConfig.lineconfig')
 require('pluginsConfig.color')
