@@ -1,4 +1,4 @@
-vim.cmd('inoremap <silent> jj <ESC>')
+vim.api.nvim_set_keymap("i","jj","<ESC>",{})
 
 -- Telescopeのキーバインド
 local builtin = require('telescope.builtin')
