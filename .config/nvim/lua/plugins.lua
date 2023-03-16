@@ -27,4 +27,6 @@ use {
   'lewis6991/gitsigns.nvim',
 }
   use 'onsails/lspkind-nvim' -- vscode-like pictograms
+  use {'neoclide/coc.nvim', branch = 'release'}
+
 end)
