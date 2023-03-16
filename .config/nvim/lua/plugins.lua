@@ -23,4 +23,8 @@ use {
     requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
 }
 use 'nvim-tree/nvim-web-devicons'
+use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+use {
+  'lewis6991/gitsigns.nvim',
+}
 end)
