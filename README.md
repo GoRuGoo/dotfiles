@@ -1,3 +1,3 @@
-# dotfiles_evo
+# dotfiles
 
 Neovimのシンボリックリンクを貼るスクリプトは用意されて無いので注意
