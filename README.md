@@ -1,3 +1,4 @@
 # dotfiles
 
 Neovimのシンボリックリンクを貼るスクリプトは用意されて無いので注意
+coc-pythonはアーカイブされたのでPythonで開発する場合はLSP注意
