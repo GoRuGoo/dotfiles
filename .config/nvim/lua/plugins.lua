@@ -12,6 +12,7 @@ packer.startup(function(use)
   'nvim-lualine/lualine.nvim',
   requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
+  -- GitHubライクなテーマ
   use ({ 'projekt0n/github-nvim-theme', tag = 'v0.0.7' })
   use {
   'nvim-telescope/telescope.nvim', tag = '0.1.1',
@@ -28,5 +29,4 @@ use {
 }
   use 'onsails/lspkind-nvim' -- vscode-like pictograms
   use {'neoclide/coc.nvim', branch = 'release'}
-
 end)
