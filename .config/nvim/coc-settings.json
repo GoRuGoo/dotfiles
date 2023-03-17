@@ -1,7 +1,17 @@
 {
-    "coc.preferences.formatOnSaveFiletypes": {
-        "go
-},
+    "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "html",
+    "markdown",
+    "typescriptreact",
+    "typescript",
+    "javascriptreact",
+    "javascript",
+    "json",
+    "graphql",
+    "go",
+    "terraform"
+  ],
     "suggest.completionItemKindLabels": {
     "function": "\uf794",
     "method":"\uf6a6",
@@ -28,4 +38,8 @@
     "typeParameter": "\uf278",
     "default": "\uf29c"
   },
+  "languageserver": {
+    "python": {
+    }
+  }
 }
