@@ -1,3 +1,4 @@
+source ~/zsh-snap/znap.zsh
 fpath=(
  ${HOME}/.zsh/completions
  ${fpath}
@@ -83,3 +84,6 @@ unset __conda_setup
 
 
 alias vim='nvim'
+
+
+znap source marlonrichert/zsh-autocomplete
