@@ -36,4 +36,6 @@ use {
         ts_update()
     end,
 }
+    use 'windwp/nvim-ts-autotag'
+    use 'windwp/nvim-autopairs'
 end)
