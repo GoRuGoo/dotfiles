@@ -6,4 +6,6 @@ vim.keymap.set('n', '<C-i>', builtin.find_files, { noremap=true })
 vim.keymap.set('n', '<C-g>', builtin.live_grep, { noremap=true })
 vim.keymap.set('n', '<C-b>', builtin.buffers, { noremap=true })
 vim.keymap.set('n', '<C-h>', builtin.help_tags, { noremap=true })
+-- 上は普通のfile_browser 下はdotfilesも表示するfile_browser
 vim.keymap.set('n', '<C-k>', '<cmd>:Telescope file_browser path=%:p:h select_buffer=true<cr>',{ noremap = true })
+vim.keymap.set('n', '<space><C-k>', '<cmd>:Telescope file_browser hidden=true<cr>',{ noremap = true })
