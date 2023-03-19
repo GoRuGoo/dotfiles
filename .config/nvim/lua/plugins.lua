@@ -38,4 +38,7 @@ use {
 }
     use 'windwp/nvim-ts-autotag'
     use 'windwp/nvim-autopairs'
+    use {'akinsho/git-conflict.nvim', tag = "*", config = function()
+  require('git-conflict').setup()
+end}
 end)
