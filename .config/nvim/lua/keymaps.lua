@@ -10,6 +10,8 @@ vim.keymap.set('n', '<C-h>', builtin.help_tags, { noremap=true })
 vim.keymap.set('n', '<C-k>', '<cmd>:Telescope file_browser path=%:p:h select_buffer=true<cr>',{ noremap = true })
 vim.keymap.set('n', '<space><C-k>', '<cmd>:Telescope file_browser hidden=true<cr>',{ noremap = true })
 
+-- 新規タブ
+vim.keymap.set('n', 'te', ':tabedit')
 
 -- 全選択
 vim.keymap.set('n', '<C-a>', 'gg<S-v>G')
