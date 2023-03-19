@@ -26,6 +26,7 @@ vim.opt.smartcase = true
 vim.opt.wrapscan = true
 
 vim.opt.mouse = 'a'
+vim.opt.mousemoveevent = true
 
 
 vim.opt.title = true
