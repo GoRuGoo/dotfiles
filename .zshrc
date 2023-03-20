@@ -87,3 +87,9 @@ alias vim='nvim'
 
 
 znap source marlonrichert/zsh-autocomplete
+
+
+# LSDeluxeの設定
+alias ls='lsd'
+alias ll='ls -l'
+alias la='ls -a'
