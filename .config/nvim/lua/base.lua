@@ -17,8 +17,8 @@ vim.opt.matchtime = 1
 
 -- タブ設定
 vim.opt.expandtab = true
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
 
 -- 検索での設定
 vim.opt.ignorecase = true
