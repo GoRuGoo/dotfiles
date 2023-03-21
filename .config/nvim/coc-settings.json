@@ -38,8 +38,4 @@
     "typeParameter": "\uf278",
     "default": "\uf29c"
   },
-  "languageserver": {
-    "python": {
-    }
-  }
 }
