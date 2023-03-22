@@ -38,4 +38,7 @@
     "typeParameter": "\uf278",
     "default": "\uf29c"
   },
+    "coc.preferences.formatOnSaveFiletypes": [
+    "go"
+  ]
 }
