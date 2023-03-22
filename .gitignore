@@ -5,3 +5,4 @@
 *.swp
 .ssh
 .aws
+.DS_Store
