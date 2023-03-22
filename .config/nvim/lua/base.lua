@@ -45,3 +45,6 @@ vim.opt.wrap = false -- No Wrap lines
 
 -- カーソルのある行にハイライト線を引く
 vim.wo.cursorline = true
+
+-- ヤンク時にクリップボードにもコピーする
+vim.opt.clipboard = "unnamed"
