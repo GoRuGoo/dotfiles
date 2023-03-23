@@ -1,5 +1,5 @@
 {
-    "coc.preferences.formatOnSaveFiletypes": [
+  "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "html",
     "markdown",
@@ -12,9 +12,9 @@
     "go",
     "terraform"
   ],
-    "suggest.completionItemKindLabels": {
+  "suggest.completionItemKindLabels": {
     "function": "\uf794",
-    "method":"\uf6a6",
+    "method": "\uf6a6",
     "variable": "\uf71b",
     "constant": "\uf8ff",
     "struct": "\ufb44",
@@ -38,7 +38,9 @@
     "typeParameter": "\uf278",
     "default": "\uf29c"
   },
-    "coc.preferences.formatOnSaveFiletypes": [
-    "go"
-  ]
+  "jedi": {
+    "enable": true,
+    "startupMessage": false,
+    "executable.command": "jedi-language-server"
+  }
 }
