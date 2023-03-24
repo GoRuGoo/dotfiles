@@ -93,3 +93,6 @@ znap source marlonrichert/zsh-autocomplete
 alias ls='lsd'
 alias ll='ls -l'
 alias la='ls -a'
+
+
+eval "$(rbenv init -)"
