@@ -96,3 +96,7 @@ alias la='ls -a'
 
 
 eval "$(rbenv init -)"
+
+
+# C++のLSPの設定
+export PATH="/usr/local/opt/llvm/bin:$PATH"
