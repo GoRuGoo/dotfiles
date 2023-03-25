@@ -10,7 +10,8 @@
     "json",
     "graphql",
     "go",
-    "terraform"
+    "terraform",
+    "python"
   ],
   "suggest.completionItemKindLabels": {
     "function": "\uf794",
