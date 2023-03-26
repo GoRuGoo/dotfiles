@@ -9,8 +9,7 @@ vim.cmd [[packadd packer.nvim]]
 packer.startup(function(use)
   use 'wbthomason/packer.nvim'
   use {
-  'nvim-lualine/lualine.nvim',
-  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  'nvim-lualine/lualine.nvim', requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
   -- GitHubライクなテーマ
   use ({ 'projekt0n/github-nvim-theme', tag = 'v0.0.7' })
@@ -43,4 +42,5 @@ use {
 end}
   use 'svrana/neosolarized.nvim'
   use 'tjdevries/colorbuddy.nvim'
+  use 'rhysd/vim-clang-format'
 end)

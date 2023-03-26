@@ -29,3 +29,6 @@ vim.keymap.set('n', '<C-w><left>', '<C-w><')
 vim.keymap.set('n', '<C-w><right>', '<C-w>>')
 vim.keymap.set('n', '<C-w><up>', '<C-w>+')
 vim.keymap.set('n', '<C-w><down>', '<C-w>-')
+
+
+vim.keymap.set('n', '<space><C-p>', '<cmd>:ClangFormat<cr>',{ noremap = true })

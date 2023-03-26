@@ -159,6 +159,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/goru/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-clang-format"] = {
+    loaded = true,
+    path = "/Users/goru/.local/share/nvim/site/pack/packer/start/vim-clang-format",
+    url = "https://github.com/rhysd/vim-clang-format"
   }
 }
 
