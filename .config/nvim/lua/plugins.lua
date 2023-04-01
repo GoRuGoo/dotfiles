@@ -5,6 +5,7 @@ if (not status) then
 end
 
 vim.cmd [[packadd packer.nvim]]
+vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
 
 packer.startup(function(use)
   use 'wbthomason/packer.nvim'
@@ -43,4 +44,15 @@ end}
   use 'svrana/neosolarized.nvim'
   use 'tjdevries/colorbuddy.nvim'
   use 'rhysd/vim-clang-format'
+  -- Unless you are still migrating, remove the deprecated commands from v1.x
+  -- Unless you are still migrating, remove the deprecated commands from v1.x
+  use {
+    "nvim-neo-tree/neo-tree.nvim",
+      branch = "v2.x",
+      requires = { 
+        "nvim-lua/plenary.nvim",
+        "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+        "MunifTanjim/nui.nvim",
+      }
+    }
 end)
