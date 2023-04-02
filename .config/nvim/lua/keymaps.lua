@@ -1,8 +1,7 @@
 vim.api.nvim_set_keymap("i","jj","<ESC>",{})
 
 -- Telescopeのキーバインド
-local builtin = require('telescope.builtin')
-vim.keymap.set('n', '<space><C-i>', '<cmd>:Telescope find_files no_ignore=false hidden=true<cr>', {})
+local builtin = require('telescope.builtin') vim.keymap.set('n', '<space><C-i>', '<cmd>:Telescope find_files no_ignore=false hidden=true<cr>', {})
 vim.keymap.set('n', '<space><C-g>', builtin.live_grep, { noremap=true })
 vim.keymap.set('n', '<space><C-b>', builtin.buffers, { noremap=true })
 vim.keymap.set('n', '<space><C-h>', builtin.help_tags, { noremap=true })
@@ -33,3 +32,6 @@ vim.keymap.set('n', '<C-w><down>', '<C-w>-')
 
 
 vim.keymap.set('n', '<space><C-p>', '<cmd>:ClangFormat<cr>',{ noremap = true })
+
+
+vim.keymap.set('n', '<C-p>', '"0p')
