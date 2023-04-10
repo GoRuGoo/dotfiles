@@ -100,3 +100,8 @@ eval "$(rbenv init -)"
 
 # C++のLSPの設定
 export PATH="/usr/local/opt/llvm/bin:$PATH"
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+
+
+export LDFLAGS="-:/opt/homebrew/opt/llvm/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
