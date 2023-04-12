@@ -105,3 +105,6 @@ export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
 export LDFLAGS="-:/opt/homebrew/opt/llvm/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
+
+
+alias makezip='(){zip $1 -r $2 -x "*.DS_Store"}'
