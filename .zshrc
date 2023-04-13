@@ -108,3 +108,7 @@ export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
 
 
 alias makezip='(){zip $1 -r $2 -x "*.DS_Store"}'
+
+
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
