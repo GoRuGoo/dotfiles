@@ -112,3 +112,10 @@ alias makezip='(){zip $1 -r $2 -x "*.DS_Store"}'
 
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/goru/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/goru/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/goru/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/goru/google-cloud-sdk/completion.zsh.inc'; fi
