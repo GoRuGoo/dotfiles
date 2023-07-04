@@ -5,6 +5,10 @@ fpath=(
 )
 
 
+
+# homebrewのパス
+export PATH="$PATH:/opt/homebrew/bin"
+
 # 補完と色の使用
 autoload -Uz compinit
 compinit
