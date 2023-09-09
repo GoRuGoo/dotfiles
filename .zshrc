@@ -1,4 +1,4 @@
-source ~/zsh-snap/znap.zsh
+source ~/Repos/znap/znap.zsh
 fpath=(
  ${HOME}/.zsh/completions
  ${fpath}
@@ -30,7 +30,8 @@ setopt nolistbeep
 # 上記はpyenvに必要な設定ファイル
 
 function powerline_precmd() {
-    PS1="$(powerline-shell --shell zsh $?)"
+    PS1="$(powerline-shell --shell zsh $?)
+% "
 }
 
 function install_powerline_precmd() {
@@ -47,10 +48,6 @@ if [ "$TERM" != "linux" ]; then
 fi
 
 
-function powerline_precmd() {
-    PS1="$(powerline-shell --shell zsh $?)
-% "
-}
 
 
 setopt correct
