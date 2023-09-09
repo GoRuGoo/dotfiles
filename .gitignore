@@ -6,3 +6,7 @@
 .ssh
 .aws
 .DS_Store
+
+yarn/
+
+package.json
