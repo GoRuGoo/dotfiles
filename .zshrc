@@ -68,7 +68,7 @@ setopt correct
 export PATH="$HOME/.nodebrew/current/bin:$PATH"
 export PATH="/Users/goru/.local/bin:$PATH"
 
-git config --global color.ui auto
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -83,24 +83,25 @@ else
     fi
 fi
 unset __conda_setup
-# <<< conda initialize <<<
 
 
 
-alias vim='nvim'
+git config --global color.ui auto
 
 
 znap source marlonrichert/zsh-autocomplete
 
-
+alias vim='nvim'
 # LSDeluxeの設定
 alias ls='lsd'
 alias ll='ls -l'
 alias la='ls -a'
 
+alias makezip='(){zip $1 -r $2 -x "*.DS_Store"}'
+
+
 
 eval "$(rbenv init -)"
-
 
 # C++のLSPの設定
 export PATH="/usr/local/opt/llvm/bin:$PATH"
@@ -111,11 +112,9 @@ export LDFLAGS="-:/opt/homebrew/opt/llvm/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
 
 
-alias makezip='(){zip $1 -r $2 -x "*.DS_Store"}'
-
-
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
+
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
 # The next line updates PATH for the Google Cloud SDK.
