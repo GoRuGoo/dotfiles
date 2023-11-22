@@ -10,6 +10,16 @@ vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
 packer.startup(function(use)
   use 'wbthomason/packer.nvim'
   use {
+      "williamboman/mason.nvim",
+      "williamboman/mason-lspconfig.nvim",
+      "neovim/nvim-lspconfig",
+  }
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'hrsh7th/cmp-buffer'
+  use 'hrsh7th/cmp-path'
+  use 'hrsh7th/cmp-cmdline'
+  use 'hrsh7th/nvim-cmp'
+  use {
   'nvim-lualine/lualine.nvim', requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
   -- GitHubライクなテーマ
@@ -28,7 +38,6 @@ use {
   'lewis6991/gitsigns.nvim',
 }
   use 'onsails/lspkind-nvim' -- vscode-like pictograms
-  use {'neoclide/coc.nvim', branch = 'release'}
   use {
     'nvim-treesitter/nvim-treesitter',
     run = function()
