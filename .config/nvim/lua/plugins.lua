@@ -9,7 +9,15 @@ vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
 
 packer.startup(function(use)
   use 'wbthomason/packer.nvim'
-  use "neovim/nvim-lspconfig"
+  use {"neovim/nvim-lspconfig",
+  config = function ()
+      vim.diagnostic.config({
+        virtual_text = false,
+        signs = true,
+        underline = true,
+        update_in_insert = true
+      })
+  end}
   use "williamboman/mason.nvim"
   use "williamboman/mason-lspconfig.nvim"
 

@@ -12,5 +12,17 @@ require('mason-lspconfig').setup_handlers({ function(server)
     )
   }
   require('lspconfig')[server].setup(opt)
+
 end })
 
+
+vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
+  vim.lsp.diagnostic.on_publish_diagnostics, {
+    signs = {
+      severity_limit = "Warning",
+    },
+    virtual_text = {
+      severity_limit = "Error",
+    },
+  }
+)
