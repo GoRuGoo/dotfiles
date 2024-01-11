@@ -122,3 +122,28 @@ if [ -f '/Users/goru/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/goru/googl
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/goru/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/goru/google-cloud-sdk/completion.zsh.inc'; fi
+
+# libxml2 config
+export PATH="/opt/homebrew/opt/libxml2/bin:$PATH"
+# bison config
+export PATH="/opt/homebrew/opt/bison/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/bison/lib"
+# libiconv config
+export PATH="/opt/homebrew/opt/libiconv/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/libiconv/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/libiconv/include"
+
+
+export PATH="/opt/homebrew/bin/gcc-13:$PATH"
+
+
+
+alias gcc='gcc-13'
+alias g++='g++-13'
+export N_PREFIX=$HOME/.n
+export PATH=$N_PREFIX/bin:$PATH
+
+export HDF5_DIR=/opt/homebrew/opt/hdf5
+export BLOSC_DIR=/opt/homebrew/opt/c-blosc
+
+export PATH="/Users/goru/Library/Python/3.9/bin:$PATH"
