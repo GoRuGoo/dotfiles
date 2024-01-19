@@ -9,6 +9,22 @@ vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
 
 packer.startup(function(use)
   use 'wbthomason/packer.nvim'
+  use {"neovim/nvim-lspconfig",
+  config = function ()
+      vim.diagnostic.config({
+        virtual_text = false,
+        signs = true,
+        underline = true,
+        update_in_insert = true
+      })
+  end}
+  use "williamboman/mason.nvim"
+  use "williamboman/mason-lspconfig.nvim"
+
+  use "hrsh7th/vim-vsnip"
+  use "hrsh7th/nvim-cmp"
+  use "hrsh7th/cmp-nvim-lsp"
+
   use {
   'nvim-lualine/lualine.nvim', requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
@@ -28,7 +44,6 @@ use {
   'lewis6991/gitsigns.nvim',
 }
   use 'onsails/lspkind-nvim' -- vscode-like pictograms
-  use {'neoclide/coc.nvim', branch = 'release'}
   use {
     'nvim-treesitter/nvim-treesitter',
     run = function()
@@ -52,7 +67,7 @@ end}
   use {
     "nvim-neo-tree/neo-tree.nvim",
       branch = "v2.x",
-      requires = { 
+      requires = {
         "nvim-lua/plenary.nvim",
         "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
         "MunifTanjim/nui.nvim",
